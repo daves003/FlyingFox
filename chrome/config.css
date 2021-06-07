@@ -1,7 +1,7 @@
 /* order of these files is important and should not be changed */
 
 /* @import "icons/extension-icons.css"; */
-@import "window-controls/wc-without-tabline.css";
+@import "window-controls/wc-none-without-tabline.css";
 @import "hide-tabline.css";
 @import "userChrome-hover.css";
 /* @import "userChrome-static.css"; */

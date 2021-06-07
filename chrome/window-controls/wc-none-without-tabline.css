@@ -1,0 +1,18 @@
+
+#TabsToolbar .toolbar-items {
+    display: none !important;
+}
+
+.titlebar-button {
+    display: none;
+}
+.titlebar-buttonbox {
+    display: none;
+}
+
+#TabsToolbar.browser-toolbar {
+    display: inline-block !important;
+    position: absolute;
+    top: var(--wc-vertical-shift) !important;
+    left: var(--wc-left-space) !important;
+}
