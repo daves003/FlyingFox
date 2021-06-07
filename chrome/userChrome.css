@@ -6,3 +6,11 @@
 @import "popup/popup.css";
 @import "interface/interface.css";
 @import "userChrome-tabline.css";
+
+/*
+:-moz-any(#content,#appcontent) browser{
+ margin-right:-14px!important;
+ overflow-y:scroll;
+ overflow-x:scroll;
+}
+ */

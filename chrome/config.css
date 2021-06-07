@@ -1,11 +1,25 @@
 /* order of these files is important and should not be changed */
 
-@import "icons/extension-icons.css";
+/* @import "icons/extension-icons.css"; */
 @import "window-controls/wc-without-tabline.css";
 @import "hide-tabline.css";
 @import "userChrome-hover.css";
 /* @import "userChrome-static.css"; */
 :root {
+    
+    --dark-base: #282b2d;
+    --dark-0: #242729;
+    --dark-1: #373B3E;
+    --dark-2: #414649;
+    --dark-3: #545A5F;
+    --dark-4: #5D6569;
+    --light-base: #eb8043;
+    --light-0: #e8712c;
+    --light-1: #ed905a;
+    --light-2: #eb8043;
+    --light-3: #e26219;
+    --light-4: #cb5816;
+    /*
     --dark-0: #151d28;
     --dark-base: #192330;
     --dark-1: #233143;
@@ -18,6 +32,7 @@
     --light-2: #94abc7;
     --light-3: #87a0c0;
     --light-4: #7996b9;
+    */
     --accent: #63cdcf;
     --yellow: #dbc074;
     --green: #5cb8a7;
