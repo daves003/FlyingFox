@@ -16,13 +16,14 @@
     min-width: var(--sidebar-width) !important;
     max-width: var(--sidebar-width) !important;
     width: var(--sidebar-width) !important;
-    transform: translateX(calc(var(--sidebar-collapsed-width) - var(--sidebar-width)));
+    transform: translateX(calc( - var(--sidebar-collapsed-width) + var(--sidebar-width)));
     transition: all var(--transition-time) var(--ease-out);
 }
 
 /* move inner to show entire sidebar */
 #sidebar-box #sidebar:hover {
-    transform: translateX(0) !important;
+    transform: translateX(calc( var(--sidebar-collapsed-width) - var(--sidebar-width)));
+    transform: translateX() !important;
     box-shadow: 2px 0 33px -3px var(--sidebar-shadow-color);
 }
 

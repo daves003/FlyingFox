@@ -3,8 +3,8 @@
 @import "icons/extension-icons.css";
 @import "window-controls/wc-without-tabline.css";
 @import "hide-tabline.css";
-@import "userChrome-static.css";
-
+@import "userChrome-hover.css";
+/* @import "userChrome-static.css"; */
 :root {
     --dark-0: #151d28;
     --dark-base: #192330;
@@ -29,7 +29,7 @@
     --sidebar-width: 250px;
     /* initial width of the sidebar. 
     advised not to change since tst css relies on this value*/
-    --sidebar-collapsed-width: 60px;
+    --sidebar-collapsed-width: 50px;
 
     --dividers: 2px;
 
